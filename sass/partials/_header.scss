@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 60px;
+    text-align: center;
+    background-color: white;
+    align-items: center;
+    padding: $spacing-xsmall;
+}
+.navbar ul{
+    gap: 20px;
+}
+.nav-item:hover{
+    color: tomato;
+    border-bottom: 2px solid black;
+}
+.nav-item{
+    text-decoration: none;
+    font-size: $text-small;
+    color: black;
+    border: 1px solid white;
+    padding: $spacing-small;
+    transition: all 1s;
+}
+.nav-link{
+    color: black;
+}
+.menu__div{
+    flex: block;
+}
+.menu-icon{
+    display: none;
+}
